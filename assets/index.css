@@ -1,198 +1,194 @@
 /* navbar*/
 .navbar {
-    height: 100px;
-    background-color: #1e1e2f;
-
-
+  height: 100px;
+  background-color: #1e1e2f;
 }
 
 .navleft {
-    background: #ffa31a;
+  background: #ffa31a;
 }
 
 /* services font */
 .services {
-    letter-spacing: 0.05em;
-    color: #C6C6C6;
-    font-weight: 700;
-    border-bottom: 13px solid #e6b800;
-    padding-bottom: 2%;
-    font-size: 50px;
-
+  letter-spacing: 0.05em;
+  color: #c6c6c6;
+  font-weight: 700;
+  border-bottom: 13px solid #e6b800;
+  padding-bottom: 2%;
+  font-size: 50px;
 }
 
 /* Main image  */
 .jumbotron {
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPOPYEOmGkYSebuaiECQ3_Atj3tvSU3O4AqRYiY5BompZonZAl);
-    background-repeat: no-repeat;
-    margin-top: 100px;
-    height: 800px;
-    background-attachment: fixed;
-    background-size: cover;
-
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPOPYEOmGkYSebuaiECQ3_Atj3tvSU3O4AqRYiY5BompZonZAl);
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  height: 800px;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 li a {
-    color: white;
-    margin-top: 70px;
+  color: white;
+  margin-top: 70px;
 }
 
 /* The Modal (background) */
 .modal {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/ opacity */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-    /* Could be more or less, depending on screen size */
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
 .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* card */
 .c {
-    margin: 1% 10%;
+  margin: 1% 10%;
 }
 
 .card {
-    border: none !important;
-
+  border: none !important;
 }
 
 .card:hover {
-
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
-
 .card-text {
-    font-family: 'Source Serif Pro', serif;
-    font-size: 18px;
+  font-family: "Source Serif Pro", serif;
+  font-size: 18px;
 }
 
 /* about us image */
 .abimg {
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRqzJqU2uOVnA4WrmfGGvGjk-TlLwvr4jcTlbGnDseuOvWf_FCU);
-    background-position: top;
-    background-repeat: no-repeat;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRqzJqU2uOVnA4WrmfGGvGjk-TlLwvr4jcTlbGnDseuOvWf_FCU);
+  background-position: top;
+  background-repeat: no-repeat;
 
-    height: 800px;
-    background-attachment: fixed;
-    background-size: cover;
+  height: 800px;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* about us text */
 .aboutus {
-    padding-left: 15%;
-    padding-right: 10%;
-
+  padding-left: 5%;
+  padding-right: 10%;
 }
 
 /* about us p  */
 .aboutus p {
-    padding-top: 15%;
-    line-height: 2.0em;
-    font-size: 18px;
-    font-family: 'Source Serif Pro', serif;
+  padding-top: 15%;
+  line-height: 2em;
+  font-size: 18px;
+  font-family: "Source Serif Pro", serif;
 }
 
 /* testimonials */
 .testimonials {
-    margin-top: 5%;
-    background: #1e1e2f;
-    color: white;
-    height: 300px;
-    padding-top: 6%;
-    margin-bottom: 5%;
-    font-family: 'Source Serif Pro', serif;
+  margin-top: 5%;
+  background: #1e1e2f;
+  color: white;
+
+  padding-top: 6%;
+  margin-bottom: 5%;
+  font-family: "Source Serif Pro", serif;
 }
 
 /* testimonials test class */
 .test {
-    border-right: 3px solid yellow;
-    text-align: center;
+  border-right: 3px solid yellow;
+  text-align: center;
 }
 
 /* image 2 */
 .image2 {
-    width: 40%;
-    margin: 2.66%;
-    opacity: 0.9;
-
+  width: 40%;
+  margin: 2.66%;
+  opacity: 0.9;
 }
 
 .image2:hover {
-    opacity: 1.0;
-    transition: 1s ease;
-    transform: scale(1.1);
+  opacity: 1;
+  transition: 1s ease;
+  transform: scale(1.1);
 }
 
 /* form */
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+@import url(
+  https://fonts.googleapis.com/css?family=Roboto:400,
+  300,
+  600,
+  400italic
+);
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
-    font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 body {
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
-    font-weight: 100;
-    font-size: 12px;
-    line-height: 30px;
-    color: #777;
-    background: #4CAF50;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  color: #777;
+  background: #4caf50;
 }
 
 .container {
-    max-width: 400px;
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
 }
 
 #contact input[type="text"],
@@ -201,36 +197,36 @@ body {
 #contact input[type="url"],
 #contact textarea,
 #contact button[type="submit"] {
-    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
 }
 
 #contact {
-    background: #F9F9F9;
-    padding: 25px;
-    margin: 4px 0;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  background: #f9f9f9;
+  padding: 25px;
+  margin: 4px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 #contact h3 {
-    display: block;
-    font-size: 30px;
-    font-weight: 300;
-    margin-bottom: 10px;
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
 }
 
 #contact h4 {
-    margin: 5px 0 15px;
-    display: block;
-    font-size: 13px;
-    font-weight: 400;
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
 }
 
 fieldset {
-    border: medium none !important;
-    margin: 0 0 10px;
-    min-width: 100%;
-    padding: 0;
-    width: 100%;
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
 }
 
 #contact input[type="text"],
@@ -238,11 +234,11 @@ fieldset {
 #contact input[type="tel"],
 #contact input[type="url"],
 #contact textarea {
-    width: 100%;
-    border: 1px solid #ccc;
-    background: #FFF;
-    margin: 0 0 5px;
-    padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
 }
 
 #contact input[type="text"]:hover,
@@ -250,76 +246,76 @@ fieldset {
 #contact input[type="tel"]:hover,
 #contact input[type="url"]:hover,
 #contact textarea:hover {
-    -webkit-transition: border-color 0.3s ease-in-out;
-    -moz-transition: border-color 0.3s ease-in-out;
-    transition: border-color 0.3s ease-in-out;
-    border: 1px solid #aaa;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
 }
 
 #contact textarea {
-    height: 100px;
-    max-width: 100%;
-    resize: none;
+  height: 100px;
+  max-width: 100%;
+  resize: none;
 }
 
 #contact button[type="submit"] {
-    cursor: pointer;
-    width: 100%;
-    border: none;
-    background: gold;
-    color: #FFF;
-    margin: 0 0 5px;
-    padding: 10px;
-    font-size: 15px;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: gold;
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
 }
 
 #contact button[type="submit"]:hover {
-    background: #43A047;
-    -webkit-transition: background 0.3s ease-in-out;
-    -moz-transition: background 0.3s ease-in-out;
-    transition: background-color 0.3s ease-in-out;
+  background: #43a047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
 #contact button[type="submit"]:active {
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .copyright {
-    text-align: center;
+  text-align: center;
 }
 
 #contact input:focus,
 #contact textarea:focus {
-    outline: 0;
-    border: 1px solid #aaa;
+  outline: 0;
+  border: 1px solid #aaa;
 }
 
 ::-webkit-input-placeholder {
-    color: #888;
+  color: #888;
 }
 
 :-moz-placeholder {
-    color: #888;
+  color: #888;
 }
 
 ::-moz-placeholder {
-    color: #888;
+  color: #888;
 }
 
 :-ms-input-placeholder {
-    color: #888;
+  color: #888;
 }
 
 /* tel and fax form */
 .tel {
-    margin-top: 4%;
+  margin-top: 4%;
 }
 
 .emp {
-    margin-top: 10%;
+  margin-top: 10%;
 }
 
 .contact {
-    font-family: 'Source Serif Pro', serif;
-    font-size: 18px;
+  font-family: "Source Serif Pro", serif;
+  font-size: 18px;
 }
