@@ -4,18 +4,31 @@
   background-color: #1e1e2f;
 }
 
-.navleft {
+/* .navleft {
   background: #ffa31a;
-}
+} */
 
 /* services font */
 .services {
   letter-spacing: 0.05em;
   color: #c6c6c6;
   font-weight: 700;
-  border-bottom: 13px solid #e6b800;
+  margin-bottom: 5%;
   padding-bottom: 2%;
   font-size: 50px;
+}
+
+.services::after {
+  height: 10px;
+  display: block;
+  width: 100px;
+  background: #e6b800;
+  border-right: 1px white;
+  content: "";
+  position: absolute;
+  right: calc(50% - 25px);
+
+
 }
 
 /* Main image  */
@@ -155,12 +168,10 @@ li a {
 }
 
 /* form */
-@import url(
-  https://fonts.googleapis.com/css?family=Roboto:400,
-  300,
-  600,
-  400italic
-);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,
+ 300,
+600,
+400italic);
 
 * {
   margin: 0;
