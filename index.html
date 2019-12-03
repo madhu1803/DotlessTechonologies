@@ -10,15 +10,77 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#myModal").modal('show');
+        });
+    </script>
 </head>
-<script>
-    $(document).ready(function () {
-        $("#myModal").modal('show');
-    });
-</script>
 
 <body>
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Subscribe our Newsletter</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Subscribe to our mailing list to get the latest updates straight in your inbox.</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email Address">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                        <div class="modal-content">
+
+
+                            <label for="webdev" class="container cls">Web development
+                                <input type="radio" class="form-control" name="name" id="webdev" required>
+                                <!-- <span class="checkmark"></span> -->
+                            </label>
+
+                            <br>
+                            <label for="webbuild" class="container cls">Website rebuilding
+                                <input type="radio" class="form-control" name="name" id="webbuild" required>
+                                <!-- <span class="checkmark"></span> -->
+                            </label>
+                            <br>
+                            <label for="dm" class="container cls">digital marketing
+                                <input type="radio" class="form-control" name="name" id="dm" required>
+                                <!-- <span class="checkmark"></span> -->
+                            </label>
+                            <br>
+                            <label for="pgi" class="container cls">Payment gateway integration
+                                <input type="radio" class="form-control" name="name" id="pgi" required>
+                                <!-- <span class="checkmark"></span> -->
+                            </label>
+                            <br>
+                            <label for="pp" class="container cls">payment promotions
+                                <input type="radio" class="form-control" name="name" id="pp">
+                                <!-- <span class="checkmark"></span> -->
+                            </label>
+
+                            <br>
+                            <input type="submit" class="form-control" name="name" value="Submit Button"
+                                style="background: #f43f00;">
+
+                        </div>
+
+                </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
     <!--Navbar start-->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="navleft">
@@ -320,16 +382,13 @@
     <!--contact us section end -->
 
     <script src="assets/index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    </script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
-
+     -->
 </body>
 
 </html>
